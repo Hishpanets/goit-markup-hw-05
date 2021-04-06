@@ -654,7 +654,10 @@ p {
 
   overflow: hidden;
 }
-.box:hover .overlay {
+.box:hover.overlay {
+  transform: translatey(0);
+}
+.item-cards:hover .overlay {
   transform: translatey(0);
 }
 
